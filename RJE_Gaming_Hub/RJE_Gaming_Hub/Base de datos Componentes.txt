@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Componentes]
+(
+	[Nombre] NCHAR(200) NOT NULL ,
+	[Consola] NCHAR(200) NOT NULL ,
+	[Descripción] NCHAR(500) NOT NULL ,
+	[Precio] FLOAT NOT NULL,
+	CONSTRAINT [PK_Componentes] PRIMARY KEY CLUSTERED ([Nombre] ASC, [Consola] ASC) 
+)

@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[Pack] (
+    [Pack]       NCHAR (100) NOT NULL,
+    [Componente] NCHAR (100) NOT NULL,
+    [Precios]    FLOAT (10)  NOT NULL,
+    CONSTRAINT [PK_Pack] PRIMARY KEY CLUSTERED ([Pack] ASC, [Componente] ASC, [Precios] ASC)
+);

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RJE_Gaming_Hub", "RJE_Gaming_Hub\RJE_Gaming_Hub.csproj", "{06811C08-F17E-45E7-B54B-61127B67F536}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06811C08-F17E-45E7-B54B-61127B67F536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06811C08-F17E-45E7-B54B-61127B67F536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06811C08-F17E-45E7-B54B-61127B67F536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06811C08-F17E-45E7-B54B-61127B67F536}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3D8AE68-D556-47FC-9EF5-AB42B833C18F}
+	EndGlobalSection
+EndGlobal

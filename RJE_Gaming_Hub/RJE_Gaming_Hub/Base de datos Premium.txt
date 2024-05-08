@@ -1,0 +1,4 @@
+CREATE TABLE [dbo].[Premium]
+(
+	[CorreoP] NCHAR(60) NOT NULL PRIMARY KEY
+)

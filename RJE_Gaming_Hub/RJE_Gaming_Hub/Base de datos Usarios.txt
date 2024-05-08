@@ -1,0 +1,10 @@
+CREATE TABLE [dbo].[Usuarios]
+(
+[Nombre] NCHAR(50) NOT NULL ,
+[Apellido1] NCHAR(50) NOT NULL,
+[Apellido2] NCHAR(50) NOT NULL,
+[Edad] INT NOT NULL,
+[Correo] NCHAR(60) NOT NULL,
+[Contraseña] NCHAR(20) NOT NULL,
+    CONSTRAINT [PK_Usuarios] PRIMARY KEY CLUSTERED ([Nombre] ASC, [Apellido1] ASC, [Apellido2] ASC)
+)
